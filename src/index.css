@@ -1,13 +1,152 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    background: #323749;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-container {
+    width: 550px;
+    height: 868px;
+    top: 53px;
+    background: #23252C;
+}
+
+.image-box{
+    position: relative;
+    width: 317px;
+    height: 317px;
+    background-color: aqua;
+    left: 115px;
+    top: 44px;
+}
+
+.image-box > img {
+    width: 317px;
+    height: 317px;
+}
+
+.main-content{
+    position: relative;
+    width: 317px;
+    height: 399px;
+    left: 115px;
+    top: 0x;
+    background: #1A1B21;
+}
+
+.my-name{
+    position: relative;
+    width: 250px;
+    height: 25.81px;
+    left: 34px;
+    top: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.job-title{
+    position: relative;
+    width: 178.06px;
+    height: 14.19px;
+    left: 70px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14x;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    }
+
+.website{
+    position: relative;
+    /* Here there is no width. It will not affect probably because links have default in line.*/
+    height: 16 px;
+    left: 112px;
+    top: 26px;
+    font-family: Inter;;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    }
+
+.email-button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    position: relative;
+    width: 247px;
+    height: 34px;
+    left: 35px;
+    top: 43px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.the-wording{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    top:40px;
+    color: #D1D5DB;
+    width: 242px;
+    left: 35px;
+}
+
+.the-wording > h1 {
+    font-size: 20px;
+}
+
+.my-about {
+    position: absolute;
+    font-size: 15px;
+    top:35px;
+}
+
+.title-for-my-interests {
+    position: absolute;
+    top:125px;
+
+}
+
+.my-interests {
+    position: absolute;
+    font-size: 15px;
+    top: 157px;
+}
+
+.the-footer {
+    position: relative;
+    width: 317px;
+    height: 100px;
+    left: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #161619;
+}
+
+.the-footer > img {
+    position: relative;
+    top: 30px;
+    width: 30px;
+    height: 30px;
 }
